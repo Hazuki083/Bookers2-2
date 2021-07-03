@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
     <title>Bookers2-debug</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -13,7 +14,7 @@
       <main>
         <p id="notice"><%= notice %></p>
       </main>
-    <%= render 'layouts/footer' %>
     <%= yield %>
   </body>
+  <%= render 'layouts/footer' %>
 </html>
